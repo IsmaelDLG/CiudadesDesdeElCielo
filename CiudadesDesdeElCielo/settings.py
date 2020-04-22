@@ -11,8 +11,8 @@
 
 BOT_NAME = 'CiudadesDesdeElCielo'
 
-SPIDER_MODULES = ['CiudadesDesdeElCielo.spiders']
-NEWSPIDER_MODULE = 'CiudadesDesdeElCielo.spiders'
+SPIDER_MODULES = ['CiudadesDesdeElCielo.WebCrawling.spiders']
+NEWSPIDER_MODULE = 'CiudadesDesdeElCielo.WebCrawling.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
