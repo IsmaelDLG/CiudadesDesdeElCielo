@@ -1,0 +1,4 @@
+Get a file in json format (will break if used more than once)
+ scrapy crawl obranuevabarcelona -o output.json
+Get a file in jsonlines format (more usable)
+ scrapy crawl obranuevabarcelona -o output.jl
