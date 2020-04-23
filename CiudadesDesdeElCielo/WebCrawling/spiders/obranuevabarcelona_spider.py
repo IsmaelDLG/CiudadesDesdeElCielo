@@ -1,6 +1,14 @@
+# -*- coding: latin-1 -*-
 import scrapy
 import urllib
-# -*- coding: utf-8 -*-
+import json
+import requests
+
+API_KEY = "8UvakkzGb7Pej0zUOn7FURAs5dppeCip"
+
+API_URL = "http://open.mapquestapi.com/geocoding/v1/reverse?location=%s,%s&key=%s"
+
+
 
 def to_write(uni_str):
     return urllib.parse.unquote(uni_str.encode('utf8')).decode('utf8')
@@ -15,40 +23,42 @@ class ObraNuevaBarcelonaSpider(scrapy.Spider):
 
     def parse(self, response):
 
-        # Parses info in files
-        
-        for card in response.css('div.rh_list_card__details'):
-            yield {
-                'title': card.css('a::text').get(),
-                'link': card.css('a').attrib['href']
-            }
-
         # Follow links
-        
         
         for link in response.css('div.rh_list_card__details a'):
             yield response.follow(link, callback=self.parse_details)
 
     def parse_details(self, response):
-        units = response.css('div.floor-plan-title')
+        pattern = "propertyMapData = "
 
-        res = {}
+        page = response.text
+        
+        beg = page.find(pattern) + len(pattern)
+        end = page.find("\n", beg) - 1
+        
+        data = page[beg:end]
+        # self.log(data)
 
-        index = 0
-        for row in units:
-            # alldata = response.css('div.floor-plan-meta p::text').getall()
-            try:
-                res[row.css('div.title h3::text').get()] = {
-                    'surface': row.css('div.floor-plan-meta p::text')[0].get(),
-                    'rooms' : row.css('div.floor-plan-meta p::text')[1].get(),
-                    'bathrooms' : row.css('div.floor-plan-meta p::text')[2].get()
+        data = json.loads(data)
+        # self.log(data['lat'])
+        # self.log(data['lng'])
+
+        r = requests.get(API_URL % (data['lat'],data['lng'],API_KEY))
+        #self.log(r.headers['Content-Type'])
+
+        res = r.json()['results']
+
+        for item in res:
+            for addr in item['locations']:
+
+                yield {
+                    'cp'    :   addr['postalCode'],
+                    'dir'   :   addr['street'],
+                    'ca'    :   addr['adminArea3'],
+                    'prov'  :   addr['adminArea5'],
+                    'pais'  :   addr['adminArea1'],
+                    'uso'   :   'OBRA_NUEVA'
                 }
-            except IndexError:
-                continue
-            
-
-        return res
-
 
         
 

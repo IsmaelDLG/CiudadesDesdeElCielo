@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: latin-1 -*-
 
 # Scrapy settings for CiudadesDesdeElCielo project
 #
@@ -14,6 +14,8 @@ BOT_NAME = 'CiudadesDesdeElCielo'
 SPIDER_MODULES = ['CiudadesDesdeElCielo.WebCrawling.spiders']
 NEWSPIDER_MODULE = 'CiudadesDesdeElCielo.WebCrawling.spiders'
 
+LOG_ENCODING = 'latin-1'
+FEED_EXPORT_ENCODING = 'latin-1'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'CiudadesDesdeElCielo (+http://www.yourdomain.com)'
@@ -64,9 +66,10 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'CiudadesDesdeElCielo.pipelines.CiudadesdesdeelcieloPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'CiudadesDesdeElCielo.WebCrawling.pipelines.JsonWriterPipeline': 300,
+
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
