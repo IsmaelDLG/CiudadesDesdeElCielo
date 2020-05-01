@@ -52,12 +52,19 @@ class ObraNuevaBarcelonaSpider(scrapy.Spider):
             for addr in item['locations']:
 
                 yield {
+                    'lat'   :   data['lat'],
+                    'lon'   :   data['lng'],
+                    'err'   :   None,
+                    'gruas' :   None,
                     'cp'    :   addr['postalCode'],
                     'dir'   :   addr['street'],
+                    'num'   :   None,
                     'ca'    :   addr['adminArea3'],
                     'prov'  :   addr['adminArea5'],
                     'pais'  :   addr['adminArea1'],
-                    'uso'   :   'OBRA_NUEVA'
+                    'uso1'  :   'residencial',
+                    'uso2'  :   'residencial',
+                    'obra_nueva'   :   True,
                 }
 
         

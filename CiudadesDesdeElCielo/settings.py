@@ -68,7 +68,19 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'CiudadesDesdeElCielo.WebCrawling.pipelines.JsonWriterPipeline': 300,
+    'CiudadesDesdeElCielo.WebCrawling.pipelines.DatabasePipeline': 400,
 
+}
+
+DB_USED = "sqlite3"
+
+DB_SETTINGS = {
+	'sqlite3': {
+		'db' : "DB.sqlite3",
+		'user' : "",
+		'passwd' : "",
+		'host' : ""
+	},
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

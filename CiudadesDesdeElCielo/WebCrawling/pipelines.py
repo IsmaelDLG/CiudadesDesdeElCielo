@@ -6,6 +6,7 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 import json
+import sqlite3
 
 
 class JsonWriterPipeline(object):
@@ -35,6 +36,64 @@ class JsonWriterPipeline(object):
         self.file.write(line)
         return item
 
+class DatabasePipeline(object):
+    def __init__(self, db, user, passwd, host, db_used):
+        self.db = db
+        self.user = user
+        self.passwd = passwd
+        self.host = host
+        self.db_used = db_used
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        db_settings = crawler.settings.getdict("DB_SETTINGS")
+
+        if not db_settings:
+            raise NotConfigured
+
+        db_used = crawler.settings.get("DB_USED")
+
+        db = db_settings[db_used]['db']
+        user = db_settings[db_used]['user']
+        passwd = db_settings[db_used]['passwd']
+        host = db_settings[db_used]['host']
+
+
+        return cls(db, user, passwd, host, db_used)
+
+    def open_spider(self, spider):
+        if (self.db_used == "sqlite3"):
+            self.conn = sqlite3.connect(self.db)
+            self.cursor = self.conn.cursor()
+        else:
+            raise NotConfigured
+
+    def process_item(self, item, spider):
+        sql = 'INSERT INTO Obra VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+
+        self.cursor.execute(sql, 
+             (
+                item.get("lat"),
+                item.get("lon"),
+                item.get("err"),
+                item.get("gruas"),
+                item.get("dir"),
+                item.get("num"),
+                item.get("cp"),
+                item.get("prov"),
+                item.get("ca"),
+                item.get("pais"),
+                item.get("uso1"),
+                item.get("uso2"),
+                1 if item.get("obra_nueva") else 0,
+             )
+            )
+        self.conn.commit()
+
+        return item
+
+    def close_spider(self, spider):
+        self.conn.close()
 
 class CiudadesdesdeelcieloPipeline(object):
     def process_item(self, item, spider):
