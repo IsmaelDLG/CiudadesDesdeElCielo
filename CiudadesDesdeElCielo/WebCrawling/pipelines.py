@@ -78,7 +78,7 @@ class DatabasePipeline(object):
                                 comunidad TEXT DEFAULT '???',
                                 pais  TEXT DEFAULT '???',
                                 uso1  TEXT DEFAULT 'otros' CHECK(uso1 in ('residencial', 'oficina', 'retail', 'terciario', 'hotel', 'otros')),
-                                uso2  TEXT DEFAULT 'otros' CHECK(uso2 in ('residencial', 'oficina', 'retail', 'terciario', 'hotel', 'otros')),
+                                uso2  TEXT DEFAULT 'otros',
                                 obra_nueva    INTEGER DEFAULT 1,
                                 PRIMARY KEY("latitud","longitud")
                             );"""

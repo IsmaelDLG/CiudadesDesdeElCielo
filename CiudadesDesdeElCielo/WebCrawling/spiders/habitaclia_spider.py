@@ -51,6 +51,20 @@ class HabitacliaSpider(scrapy.Spider):
 
                 res = r.json()['results']
 
+                # https://www.habitaclia.com/obra_nueva-naves_industriales-en-terrassa/promo_1014003554965?geo=a
+                url_info = response.url.split("/")[-2].split("-")
+
+                obra_nueva = True if url_info[0] == 'obra_nueva' else False
+                if url_info[1] == 'naves_industriales':
+                    uso1 = 'otros'
+                    uso2 = 'industrial'
+                elif url_info[1] == 'viviendas':
+                    uso1 = 'residencial'
+                    uso2 = 'residencial'
+                elif url_info[1] == 'oficinas':
+                    uso1 = 'oficina'
+                    uso2 = 'oficina'
+
                 for item in res:
                     for addr in item['locations']:
 
@@ -65,9 +79,9 @@ class HabitacliaSpider(scrapy.Spider):
                             'ca'    :   addr['adminArea3'],
                             'prov'  :   addr['adminArea5'],
                             'pais'  :   addr['adminArea1'],
-                            'uso1'  :   'residencial',
-                            'uso2'  :   'residencial',
-                            'obra_nueva'   :   True,
+                            'uso1'  :   uso1,
+                            'uso2'  :   uso2,
+                            'obra_nueva'   :   obra_nueva,
                         }
 
         
