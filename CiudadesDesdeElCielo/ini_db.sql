@@ -1,4 +1,4 @@
-CREATE TABLE "Obra" (
+CREATE TABLE IF NOT EXISTS "Obra" (
 	"latitud"	REAL DEFAULT 0,
 	"longitud"	REAL DEFAULT 0,
 	"radio_error"	REAL DEFAULT 99999999,
