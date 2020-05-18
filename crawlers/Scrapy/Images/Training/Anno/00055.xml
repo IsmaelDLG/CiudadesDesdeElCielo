@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imagenes PAE</folder>
+	<filename>0020.jpg</filename>
+	<path>F:\GitHub\CiudadesDesdeElCielo\crawlers\Scrapy\Images\Training\Img\F:\GitHub\CiudadesDesdeElCielo\crawlers\Scrapy\Images\Training\Img\00055.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1298</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>889</xmin>
+			<ymin>138</ymin>
+			<xmax>1243</xmax>
+			<ymax>595</ymax>
+		</bndbox>
+	</object>
+</annotation>

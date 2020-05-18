@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Crane Images</folder>
+	<filename>Captura de pantalla (115).png</filename>
+	<path>F:\GitHub\CiudadesDesdeElCielo\crawlers\Scrapy\Images\Training\Img\F:\GitHub\CiudadesDesdeElCielo\crawlers\Scrapy\Images\Training\Img\00035.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>657</ymin>
+			<xmax>1139</xmax>
+			<ymax>739</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Dataset</folder>
+	<filename>Selection_017.png</filename>
+	<path>F:\GitHub\CiudadesDesdeElCielo\crawlers\Scrapy\Images\Training\Img\F:\GitHub\CiudadesDesdeElCielo\crawlers\Scrapy\Images\Training\Img\00072.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1150</width>
+		<height>563</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>740</xmin>
+			<ymin>31</ymin>
+			<xmax>917</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+</annotation>
