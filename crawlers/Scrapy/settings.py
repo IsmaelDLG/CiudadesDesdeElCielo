@@ -1,4 +1,4 @@
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
 # Scrapy settings for CiudadesDesdeElCielo project
 #
@@ -14,8 +14,8 @@ BOT_NAME = 'CiudadesDesdeElCielo'
 SPIDER_MODULES = ['Scrapy.WebCrawling.spiders']
 NEWSPIDER_MODULE = 'Scrapy.WebCrawling.spiders'
 
-LOG_ENCODING = 'latin-1'
-FEED_EXPORT_ENCODING = 'latin-1'
+LOG_ENCODING = 'utf-8'
+FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'CiudadesDesdeElCielo (+http://www.yourdomain.com)'

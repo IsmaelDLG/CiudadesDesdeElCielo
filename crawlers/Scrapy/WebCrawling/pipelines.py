@@ -1,4 +1,4 @@
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
 # Define your item pipelines here
 #
@@ -43,6 +43,30 @@ class DatabasePipeline(object):
         self.passwd = passwd
         self.host = host
         self.db_used = db_used
+    
+    def remove_special_chars(self, myStr):
+        def remove_special_vowels(myStr):
+            return (
+                myStr.replace("à", "a")
+                .replace("á", "a")
+                .replace("è", "e")
+                .replace("é", "e")
+                .replace("ì", "i")
+                .replace("í", "i")
+                .replace("ï", "i")
+                .replace("ò", "o")
+                .replace("ó", "o")
+                .replace("ù", "u")
+                .replace("ú", "u")
+                .replace("ü", "u")
+            )
+        def remove_special_consonants(myStr):
+            return (
+                myStr.replace("ç","c")
+                .replace("ñ","n")
+            )
+
+        return remove_special_consonants(remove_special_vowels(myStr))
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -80,9 +104,11 @@ class DatabasePipeline(object):
                                 uso1  TEXT DEFAULT 'otros' CHECK(uso1 in ('residencial', 'oficina', 'retail', 'terciario', 'hotel', 'otros')),
                                 uso2  TEXT DEFAULT 'otros',
                                 obra_nueva    INTEGER DEFAULT 1,
+                                precio_min   INTEGER DEFAULT 0,
+                                precio_medio   INTEGER DEFAULT 0,
                                 PRIMARY KEY("latitud","longitud")
                             );"""
-                self.cursor.execute(create);
+                self.cursor.execute(create)
                 self.conn.commit()
             except Error as e:
                 print(e)
@@ -90,7 +116,11 @@ class DatabasePipeline(object):
             raise NotConfigured
 
     def process_item(self, item, spider):
-        sql = 'INSERT INTO Obra VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+        sql = 'INSERT INTO Obra VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+
+        for (key, value) in item.items():
+            if isinstance(value, str):
+                item[key] = self.remove_special_chars(value)
 
         self.cursor.execute(sql, 
              (
@@ -107,6 +137,8 @@ class DatabasePipeline(object):
                 item.get("uso1"),
                 item.get("uso2"),
                 1 if item.get("obra_nueva") else 0,
+                item.get("min_price"),
+                item.get("avg_price")
              )
             )
         self.conn.commit()

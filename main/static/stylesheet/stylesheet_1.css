@@ -1,0 +1,15 @@
+header, footer {
+    background-color:#defae7 ;
+}
+
+footer {
+    height: 200px;
+}
+
+footer address {
+    margin: 0 100px;
+}
+
+.logo {
+    text-align: center;
+}

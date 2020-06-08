@@ -1,8 +1,11 @@
 {% include 'parts/header.html' %}
 
-{% block test %}
-<form action="">
-    <span>Press me!</span>
-    <button>Submit</button>
-</form>
-{% endblock %}
+<div class="container">
+    {% block test %}
+    <form action="">
+        <span>Press me!</span>
+        <button>Submit</button>
+    </form>
+    {% endblock %}
+</div>
+{% include 'parts/footer.html' %}
