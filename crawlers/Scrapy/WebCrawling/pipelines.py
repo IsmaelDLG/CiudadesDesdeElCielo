@@ -113,14 +113,14 @@ class DatabasePipeline(object):
             except Error as e:
                 print(e)
         else:
-            raise NotConfigured
+            raise ConnectionError
 
     def process_item(self, item, spider):
         sql = 'INSERT INTO Obra VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
 
         for (key, value) in item.items():
             if isinstance(value, str):
-                item[key] = self.remove_special_chars(value)
+                item[key] = self.remove_special_chars(value.lower())
 
         self.cursor.execute(sql, 
              (

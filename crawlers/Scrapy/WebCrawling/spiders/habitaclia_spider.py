@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from scrapy.crawler import CrawlerProcess
 import urllib
 import json
 import requests
@@ -96,12 +97,21 @@ class HabitacliaSpider(scrapy.Spider):
                             'min_price' : self._clean_string(min_price) if min_price is not None else 0,
                             'avg_price' : sum_price/(ofertas if ofertas != 0 else 1),
                         }
+                        
     def _clean_string(self, ul) -> str:
         aux = ""
         for c in ul:
             if c.isdigit():
                 aux += c
         return aux
+
+if __name__ == "__main__":
+    process = CrawlerProcess({
+        'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
+    })
+
+    process.crawl(HabitacliaSpider)
+    process.start() # the script will block here until the crawling is finished
 
         
 

@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     'bootstrap4',
     'main.apps.MainConfig',
     'crawlers.apps.CrawlersConfig',
+    'satelite.apps.SateliteConfig',
+    'stats.apps.StatsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

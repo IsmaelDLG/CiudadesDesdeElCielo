@@ -4,3 +4,7 @@ Get a file in jsonlines format (more usable)
  scrapy crawl obranuevabarcelona -o output.jl
 Extract DB
 sqlite3 -header -csv .\crawlers_db.sqlite3 "select * from Obra;" > out.csv
+Replace trash PS
+(Get-Content -path .\out.csv -Raw) -replace '"','' | Set-Content .\out1.csv
+Select lines no match PS
+(Get-Content .\out.csv) | select-string -pattern 'AM>' -notmatch | Set-Content .\out.csv

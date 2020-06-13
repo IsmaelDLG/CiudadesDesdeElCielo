@@ -1,1 +1,8 @@
-Hello world!
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Crawlers home page</h1>
+<form action="/crawlers/crawl">
+    <button>Crawl</button>
+</form>
+{% endblock %}
