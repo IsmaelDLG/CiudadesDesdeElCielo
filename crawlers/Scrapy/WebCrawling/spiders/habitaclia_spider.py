@@ -98,7 +98,7 @@ class HabitacliaSpider(scrapy.Spider):
                             'avg_price' : sum_price/(ofertas if ofertas != 0 else 1),
                         }
                         
-    def _clean_string(self, ul) -> str:
+    def _clean_string(self, ul):
         aux = ""
         for c in ul:
             if c.isdigit():
