@@ -1,2 +1,10 @@
 __pycache__
-*/DB.sqlite3
+*.pyc
+
+*.sqlite3
+
+.vscode/
+
+satelite/imageai/pretrained-yolov3.h5
+
+satelite/Tensorflow/
