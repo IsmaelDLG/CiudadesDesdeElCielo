@@ -6,3 +6,5 @@ __pycache__
 .vscode/
 
 satelite/imageai/pretrained-yolov3.h5
+
+satelite/Tensorflow/
