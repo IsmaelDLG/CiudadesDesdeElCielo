@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Crane Images</folder>
+	<filename>Captura de pantalla (104).png</filename>
+	<path>/home/isma/CiudadesDesdeElCielo/crawlers/Scrapy/Images/Training/Img//home/isma/CiudadesDesdeElCielo/crawlers/Scrapy/Images/Training/Img/00026.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>616</xmin>
+			<ymin>160</ymin>
+			<xmax>1066</xmax>
+			<ymax>725</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>crane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>361</xmin>
+			<ymin>125</ymin>
+			<xmax>799</xmax>
+			<ymax>346</ymax>
+		</bndbox>
+	</object>
+</annotation>
