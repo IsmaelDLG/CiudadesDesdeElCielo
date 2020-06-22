@@ -1,0 +1,945 @@
+{
+    "name": " Annotations",
+    "securityToken": " Annotations Token",
+    "sourceConnection": {
+        "name": "Images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjFjYTY1NmI3Njg3MWMxMGU3NWE1YWFiNzc5NjU1MjAzOWQ2NjMyNGRlMDRhNDY2YWFhYzRhMjBhMjJmOWZiZTIxZWZiM2U1ZmFlNmUyY2QwZjE1NjAzMGZhYTdjYjkwZDU0NzBiOWZmYTViMzhlODVjMGQ2ZGUzODcxOTJhNjNkZWZmOGI3ZTk4YTU4Yjg2Y2Q3ZTUzNzhkYjVmOTk5MzQzNjQwMWExM2Y3MDY1YzU4MDM0YjQ4YjA2ZDJiYTc4NWM5N2QxNWI1MzIyZmU3MTc1MGFlNjdkMWQwZWNmMGUyZDUyMzE5NjA3YTFkMTAzNzE1NDNmM2YyYmUyMWY2MmI0MjU4YWU3MzExNTllNDg0NTkxY2JlMDMxN2YxMjgyYjAyZjkyODA2ODU4NmVlMjM1ZDQ1OTA4NzM5NTkyNjQ0MTdhZDEyMGEwYmYwMWRiYWFiYzE2MGRjZGZkYWQ0ZWJlMGE0NDgzM2M0MDUwMDdjZTk3MTE4NGRkNTZmOTdjIiwiaXYiOiI2OWJmZWM3ZTkxMzU4MGFiYjZkN2MyZTg1ZWZjZmVkZGE5NzExMzBjNDVmZjQyN2UifQ=="
+        },
+        "id": "4t6bt7A4J"
+    },
+    "targetConnection": {
+        "name": "Images",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZWRmY2E5ZWY2OGRiZWIzOTc3ZDYyMjIyMzkzOWZhZjUyNGZjNjg3MTZlNDE3NDJhN2NmMmIyYjUxMDk3ZDFlMzZmYjk1ODEzYTIyYzM0ZDY0ODAzOGMxNDFkY2RmYzkwMjNjMWU2M2UyNzNhNTcyYzU5NmRmNDA4Zjc0NDM5NDgzMWVjMzM4ODM3YWZkMzJmODk2MzdiODVmNWRjNTYyNGNmMmE1MGRjMjM0NzAyMjcwMjQyMGMxYjllZmY4OGJiMTUxMGQ0Yzk3OWQyMDU3ZDhkMjE5OWIzOGE1NDQ5MWM1ZGRjYWI1NTIyZGU5ZTVjMzQ5MzBiMThjMWE0M2NlMDUyNTc0YTBiYjA1MDIxZDI0MmEzNzNjMGEwMDEzZWNkNzhkMWMwYWUyYTdhMzNjZWFlZDNjMjkyZTA2YjIzZDQ4YjY2ZTZmMjk2MGYzMzhkOGY2YWMyZWYzNTdmNTkwYTU3MGMxNTBhMDQ5NjczYzNhNGYyMzhjMTkxY2Q0ODE2IiwiaXYiOiI3MDExNzliNzQ2ODg5MTQwOTNkN2QwMDkzOWRhZTU2MGM0ZDlkMDA1Y2Q0MDdmNzUifQ=="
+        },
+        "id": "4t6bt7A4J"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "Crane",
+            "color": "#5db300"
+        }
+    ],
+    "id": "Ke8AZltZm",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGMyZTMwNThmNGViYjM3YmU1MDM1YTYwNDQxYTY4ZjI3NTJkYzM5Y2FmMmY0MjU3NTMwYmVlNGY5ZmE2MTVhNDY5OWZhNTQ3ZGU5ZDkwOTU4NjNiYWFjN2NlNTkwMGIxIiwiaXYiOiI1ODAxOTllMDU3NjhkNWFmYWJhOWI3NzczZjA1NmJkZmJiODE3MTI2YjAyNmExNTIifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "5376851f8e3599d51dc962204b7682f7",
+    "assets": {
+        "f2d12fb488620de74f7373611e4d5b8c": {
+            "format": "jpeg",
+            "id": "f2d12fb488620de74f7373611e4d5b8c",
+            "name": "00001.jpeg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00001.jpeg",
+            "size": {
+                "width": 3840,
+                "height": 2079
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3311fd0a6fffe263380a9343dcf1a0d0": {
+            "format": "jpg",
+            "id": "3311fd0a6fffe263380a9343dcf1a0d0",
+            "name": "00002.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00002.jpg",
+            "size": {
+                "width": 600,
+                "height": 657
+            },
+            "state": 2,
+            "type": 1
+        },
+        "29307e0bf8a47e030089747e9120451c": {
+            "format": "jpg",
+            "id": "29307e0bf8a47e030089747e9120451c",
+            "name": "00003.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00003.jpg",
+            "size": {
+                "width": 1300,
+                "height": 1063
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5648391ebb5384b93ad09e4be690d39c": {
+            "format": "jpg",
+            "id": "5648391ebb5384b93ad09e4be690d39c",
+            "name": "00004.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00004.jpg",
+            "size": {
+                "width": 1300,
+                "height": 866
+            },
+            "state": 2,
+            "type": 1
+        },
+        "acbd4163563af5d162d1e4461712c5fb": {
+            "format": "jpg",
+            "id": "acbd4163563af5d162d1e4461712c5fb",
+            "name": "00005.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00005.jpg",
+            "size": {
+                "width": 500,
+                "height": 333
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b474ce243cbccd880b4f3ca2941cf687": {
+            "format": "jpg",
+            "id": "b474ce243cbccd880b4f3ca2941cf687",
+            "name": "00006.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00006.jpg",
+            "size": {
+                "width": 800,
+                "height": 533
+            },
+            "state": 2,
+            "type": 1
+        },
+        "abc90b12955e0e762435ccc51e914abd": {
+            "format": "jpg",
+            "id": "abc90b12955e0e762435ccc51e914abd",
+            "name": "00007.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00007.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d1256fb0caffedb8ee8aceb9c315d82e": {
+            "format": "jpg",
+            "id": "d1256fb0caffedb8ee8aceb9c315d82e",
+            "name": "00008.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00008.jpg",
+            "size": {
+                "width": 600,
+                "height": 338
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22efed9de19bb27bf49ef4223e478c2a": {
+            "format": "jpg",
+            "id": "22efed9de19bb27bf49ef4223e478c2a",
+            "name": "00009.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00009.jpg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 1,
+            "type": 1
+        },
+        "394e701fac2a7b2af9d22000064ba7f4": {
+            "format": "jpg",
+            "id": "394e701fac2a7b2af9d22000064ba7f4",
+            "name": "00010.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00010.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1155
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5786632bc32e302f56d7a0e09f8d4a15": {
+            "format": "jpg",
+            "id": "5786632bc32e302f56d7a0e09f8d4a15",
+            "name": "00011.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00011.jpg",
+            "size": {
+                "width": 1300,
+                "height": 866
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd73865dd5c9e3058c6bc133f4605e30": {
+            "format": "jpg",
+            "id": "fd73865dd5c9e3058c6bc133f4605e30",
+            "name": "00012.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00012.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1155
+            },
+            "state": 2,
+            "type": 1
+        },
+        "43d58f698e69654e3d697794feab8c75": {
+            "format": "jpg",
+            "id": "43d58f698e69654e3d697794feab8c75",
+            "name": "00013.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00013.jpg",
+            "size": {
+                "width": 1500,
+                "height": 1244
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ee93b28a8a9e7c5d9f0a19650375f5d": {
+            "format": "png",
+            "id": "8ee93b28a8a9e7c5d9f0a19650375f5d",
+            "name": "00014.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00014.png",
+            "size": {
+                "width": 1006,
+                "height": 392
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b99016957916f78f7903e3db3ce21928": {
+            "format": "jpg",
+            "id": "b99016957916f78f7903e3db3ce21928",
+            "name": "00015.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00015.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a91d8049cae14f921f4cf105fe16f1a8": {
+            "format": "jpg",
+            "id": "a91d8049cae14f921f4cf105fe16f1a8",
+            "name": "00016.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00016.jpg",
+            "size": {
+                "width": 1300,
+                "height": 1063
+            },
+            "state": 2,
+            "type": 1
+        },
+        "17845d50089253cdddf551b49575ed33": {
+            "format": "png",
+            "id": "17845d50089253cdddf551b49575ed33",
+            "name": "00017.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00017.png",
+            "size": {
+                "width": 1366,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e6378f22e6f3f6a86c43f9d99a4a8c2": {
+            "format": "png",
+            "id": "9e6378f22e6f3f6a86c43f9d99a4a8c2",
+            "name": "00018.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00018.png",
+            "size": {
+                "width": 1366,
+                "height": 768
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0f31ff85332230db06cb06c0db80369": {
+            "format": "jpg",
+            "id": "d0f31ff85332230db06cb06c0db80369",
+            "name": "00019.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00019.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "232802e5ab1e753b07e2d9a7a9e7fa49": {
+            "format": "jpg",
+            "id": "232802e5ab1e753b07e2d9a7a9e7fa49",
+            "name": "00020.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00020.jpg",
+            "size": {
+                "width": 500,
+                "height": 333
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b774820f7638526ae2e8aaa71c1f96f": {
+            "format": "png",
+            "id": "0b774820f7638526ae2e8aaa71c1f96f",
+            "name": "00021.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00021.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb63909b163fe0eae8ccc0df528a3b8e": {
+            "format": "png",
+            "id": "eb63909b163fe0eae8ccc0df528a3b8e",
+            "name": "00022.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00022.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d13041c54e792da371b9e0241465bd1": {
+            "format": "png",
+            "id": "0d13041c54e792da371b9e0241465bd1",
+            "name": "00023.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00023.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d1fe6556af6ccaec967264224f0ca6f": {
+            "format": "png",
+            "id": "9d1fe6556af6ccaec967264224f0ca6f",
+            "name": "00024.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00024.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e2331898e26020d91822908437e79152": {
+            "format": "png",
+            "id": "e2331898e26020d91822908437e79152",
+            "name": "00025.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00025.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "260634977f6ee399a982f31b0c19a477": {
+            "format": "png",
+            "id": "260634977f6ee399a982f31b0c19a477",
+            "name": "00026.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00026.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5376851f8e3599d51dc962204b7682f7": {
+            "format": "png",
+            "id": "5376851f8e3599d51dc962204b7682f7",
+            "name": "00027.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00027.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cd539a94eecfa0c06444173a00390d88": {
+            "format": "png",
+            "id": "cd539a94eecfa0c06444173a00390d88",
+            "name": "00028.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00028.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d15b398ba03f9d9248a60383e5a834d5": {
+            "format": "png",
+            "id": "d15b398ba03f9d9248a60383e5a834d5",
+            "name": "00029.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00029.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7ff9be32087d368f6825e737d6e5472": {
+            "format": "png",
+            "id": "f7ff9be32087d368f6825e737d6e5472",
+            "name": "00031.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00031.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3e501f00dd4ed9e21a5864d96156c934": {
+            "format": "png",
+            "id": "3e501f00dd4ed9e21a5864d96156c934",
+            "name": "00030.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00030.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "364c5593461ebedc2d294c5747c24926": {
+            "format": "png",
+            "id": "364c5593461ebedc2d294c5747c24926",
+            "name": "00032.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00032.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a47a5f1d4372befc993ce5937165820": {
+            "format": "png",
+            "id": "7a47a5f1d4372befc993ce5937165820",
+            "name": "00033.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00033.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca744f505e9c733f00b840de390d7002": {
+            "format": "png",
+            "id": "ca744f505e9c733f00b840de390d7002",
+            "name": "00034.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00034.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "41f2fc9b185cb9b1609b91d904dc3ad9": {
+            "format": "png",
+            "id": "41f2fc9b185cb9b1609b91d904dc3ad9",
+            "name": "00035.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00035.png",
+            "size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d232e6b2f9b383f144634ee4b49376d0": {
+            "format": "jpg",
+            "id": "d232e6b2f9b383f144634ee4b49376d0",
+            "name": "00036.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00036.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1155
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f806a0acdddb950c1c5f8050c3bee10f": {
+            "format": "jpg",
+            "id": "f806a0acdddb950c1c5f8050c3bee10f",
+            "name": "00037.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00037.jpg",
+            "size": {
+                "width": 1300,
+                "height": 1064
+            },
+            "state": 2,
+            "type": 1
+        },
+        "14304f78d43b0bc967e5e2ae5a52459f": {
+            "format": "jpg",
+            "id": "14304f78d43b0bc967e5e2ae5a52459f",
+            "name": "00038.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00038.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1155
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f6b0a6c9f00a28747f2cb9e0a0f1bef": {
+            "format": "jpg",
+            "id": "8f6b0a6c9f00a28747f2cb9e0a0f1bef",
+            "name": "00041.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00041.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1166
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b47546597a8e2549f0dbf2dc5979cdc": {
+            "format": "jpg",
+            "id": "3b47546597a8e2549f0dbf2dc5979cdc",
+            "name": "00040.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00040.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bbfdf79060b37c82aedbfc7426b0c08b": {
+            "format": "jpg",
+            "id": "bbfdf79060b37c82aedbfc7426b0c08b",
+            "name": "00039.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00039.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1155
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e19b0c446f9d360b2be4ba9f7790c9da": {
+            "format": "jpg",
+            "id": "e19b0c446f9d360b2be4ba9f7790c9da",
+            "name": "00042.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00042.jpg",
+            "size": {
+                "width": 590,
+                "height": 332
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c05e4930272cc381e1817844c3454b5": {
+            "format": "jpg",
+            "id": "6c05e4930272cc381e1817844c3454b5",
+            "name": "00043.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00043.jpg",
+            "size": {
+                "width": 1500,
+                "height": 1244
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9099ffbd342017ed791b8dead9095a3e": {
+            "format": "jpg",
+            "id": "9099ffbd342017ed791b8dead9095a3e",
+            "name": "00044.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00044.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0b383102805bf3801cfe5763c5cfee2": {
+            "format": "jpg",
+            "id": "a0b383102805bf3801cfe5763c5cfee2",
+            "name": "00045.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00045.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1166
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e6c115e68c8c92c4cbb29af438e4c8de": {
+            "format": "jpg",
+            "id": "e6c115e68c8c92c4cbb29af438e4c8de",
+            "name": "00046.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00046.jpg",
+            "size": {
+                "width": 1500,
+                "height": 1099
+            },
+            "state": 2,
+            "type": 1
+        },
+        "596d41c2d04a234c646dc7b89b3035e5": {
+            "format": "jpg",
+            "id": "596d41c2d04a234c646dc7b89b3035e5",
+            "name": "00047.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00047.jpg",
+            "size": {
+                "width": 1500,
+                "height": 1244
+            },
+            "state": 2,
+            "type": 1
+        },
+        "896941fa79a59ca6c3a32598e342bb7c": {
+            "format": "jpg",
+            "id": "896941fa79a59ca6c3a32598e342bb7c",
+            "name": "00048.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00048.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a8d3ccb6015567b1beec1256bb3637a": {
+            "format": "jpg",
+            "id": "6a8d3ccb6015567b1beec1256bb3637a",
+            "name": "00049.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00049.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1166
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c78953385658137035da822ba4a6d387": {
+            "format": "jpg",
+            "id": "c78953385658137035da822ba4a6d387",
+            "name": "00050.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00050.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1155
+            },
+            "state": 2,
+            "type": 1
+        },
+        "10bef493ea360e302c1ced1b380b66e2": {
+            "format": "jpg",
+            "id": "10bef493ea360e302c1ced1b380b66e2",
+            "name": "00051.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00051.jpg",
+            "size": {
+                "width": 928,
+                "height": 666
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5920171150aa93cce52fda1a6c117dc": {
+            "format": "jpg",
+            "id": "c5920171150aa93cce52fda1a6c117dc",
+            "name": "00052.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00052.jpg",
+            "size": {
+                "width": 1300,
+                "height": 956
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e7707f2af75c458fc61f0cfc54149adc": {
+            "format": "jpg",
+            "id": "e7707f2af75c458fc61f0cfc54149adc",
+            "name": "00053.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00053.jpg",
+            "size": {
+                "width": 448,
+                "height": 336
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a92b37796ff3ea84922f4c4c62d7a8da": {
+            "format": "jpg",
+            "id": "a92b37796ff3ea84922f4c4c62d7a8da",
+            "name": "00054.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00054.jpg",
+            "size": {
+                "width": 1024,
+                "height": 682
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63d630741adac51ae96db1651136fecc": {
+            "format": "jpg",
+            "id": "63d630741adac51ae96db1651136fecc",
+            "name": "00055.jpg",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00055.jpg",
+            "size": {
+                "width": 1600,
+                "height": 1298
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0226a18d3dc159e741a5ef5ae59434f": {
+            "format": "png",
+            "id": "a0226a18d3dc159e741a5ef5ae59434f",
+            "name": "00058.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00058.png",
+            "size": {
+                "width": 1206,
+                "height": 599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdf97b47046ac5cac1493a352c11c9a3": {
+            "format": "png",
+            "id": "fdf97b47046ac5cac1493a352c11c9a3",
+            "name": "00059.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00059.png",
+            "size": {
+                "width": 1210,
+                "height": 599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9056ad6bf6d359e7f4e7986d21e7b61c": {
+            "format": "png",
+            "id": "9056ad6bf6d359e7f4e7986d21e7b61c",
+            "name": "00060.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00060.png",
+            "size": {
+                "width": 1175,
+                "height": 599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a5ba2088016a082c35fe5c159d08bc5d": {
+            "format": "png",
+            "id": "a5ba2088016a082c35fe5c159d08bc5d",
+            "name": "00061.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00061.png",
+            "size": {
+                "width": 1216,
+                "height": 592
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae8ff696827cec1e55147baf4a4a78bb": {
+            "format": "png",
+            "id": "ae8ff696827cec1e55147baf4a4a78bb",
+            "name": "00062.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00062.png",
+            "size": {
+                "width": 1173,
+                "height": 599
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ae131547c8fe86fcab0d0940aa6a290": {
+            "format": "png",
+            "id": "8ae131547c8fe86fcab0d0940aa6a290",
+            "name": "00063.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00063.png",
+            "size": {
+                "width": 1175,
+                "height": 557
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f020f07ea2e816bdb08373f9924ffbb5": {
+            "format": "png",
+            "id": "f020f07ea2e816bdb08373f9924ffbb5",
+            "name": "00064.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00064.png",
+            "size": {
+                "width": 991,
+                "height": 609
+            },
+            "state": 2,
+            "type": 1
+        },
+        "645cd7037d983d79b0c9b70100d173d9": {
+            "format": "png",
+            "id": "645cd7037d983d79b0c9b70100d173d9",
+            "name": "00065.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00065.png",
+            "size": {
+                "width": 1023,
+                "height": 698
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c2159a86389b8712677703cf7301cb8a": {
+            "format": "png",
+            "id": "c2159a86389b8712677703cf7301cb8a",
+            "name": "00066.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00066.png",
+            "size": {
+                "width": 1097,
+                "height": 594
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e59273d2b24442ed04a4d151c8a2dcf9": {
+            "format": "png",
+            "id": "e59273d2b24442ed04a4d151c8a2dcf9",
+            "name": "00067.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00067.png",
+            "size": {
+                "width": 1117,
+                "height": 624
+            },
+            "state": 2,
+            "type": 1
+        },
+        "17228dc9ed08aa0a2673b295f716f754": {
+            "format": "png",
+            "id": "17228dc9ed08aa0a2673b295f716f754",
+            "name": "00068.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00068.png",
+            "size": {
+                "width": 1143,
+                "height": 612
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e1c12f0d1d6867904a2cc4d8317cd0c9": {
+            "format": "png",
+            "id": "e1c12f0d1d6867904a2cc4d8317cd0c9",
+            "name": "00069.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00069.png",
+            "size": {
+                "width": 1152,
+                "height": 571
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f98e17e114f6d0dd746e999a03ce0090": {
+            "format": "png",
+            "id": "f98e17e114f6d0dd746e999a03ce0090",
+            "name": "00070.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00070.png",
+            "size": {
+                "width": 1148,
+                "height": 583
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f3d70d124214da25fd474a702c8eeb4f": {
+            "format": "png",
+            "id": "f3d70d124214da25fd474a702c8eeb4f",
+            "name": "00071.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00071.png",
+            "size": {
+                "width": 1149,
+                "height": 562
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bd99dabc16e53687774a6ffc1612286": {
+            "format": "png",
+            "id": "5bd99dabc16e53687774a6ffc1612286",
+            "name": "00072.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00072.png",
+            "size": {
+                "width": 1150,
+                "height": 563
+            },
+            "state": 2,
+            "type": 1
+        },
+        "10cf17e4025a17837664190ef46d06cd": {
+            "format": "png",
+            "id": "10cf17e4025a17837664190ef46d06cd",
+            "name": "00073.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00073.png",
+            "size": {
+                "width": 1150,
+                "height": 564
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fafca8b59b9994ebd67047511dcb888d": {
+            "format": "png",
+            "id": "fafca8b59b9994ebd67047511dcb888d",
+            "name": "00074.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00074.png",
+            "size": {
+                "width": 1149,
+                "height": 553
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cbe26c23a6519bc190f211f4e45f0d5a": {
+            "format": "png",
+            "id": "cbe26c23a6519bc190f211f4e45f0d5a",
+            "name": "00075.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00075.png",
+            "size": {
+                "width": 1148,
+                "height": 541
+            },
+            "state": 2,
+            "type": 1
+        },
+        "788ea1914decfc9f0b989bb758f6a80d": {
+            "format": "png",
+            "id": "788ea1914decfc9f0b989bb758f6a80d",
+            "name": "00077.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00077.png",
+            "size": {
+                "width": 1076,
+                "height": 510
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e94bb13380a36418e2f377ae16410072": {
+            "format": "png",
+            "id": "e94bb13380a36418e2f377ae16410072",
+            "name": "00076.png",
+            "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00076.png",
+            "size": {
+                "width": 1145,
+                "height": 520
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

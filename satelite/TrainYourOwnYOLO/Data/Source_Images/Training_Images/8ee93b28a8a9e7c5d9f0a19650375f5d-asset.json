@@ -1,0 +1,79 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "8ee93b28a8a9e7c5d9f0a19650375f5d",
+        "name": "00014.png",
+        "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00014.png",
+        "size": {
+            "width": 1006,
+            "height": 392
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "zU8gs3aYM",
+            "type": "RECTANGLE",
+            "tags": [
+                "Crane"
+            ],
+            "boundingBox": {
+                "height": 59.667256637168144,
+                "width": 351.5106822880772,
+                "left": 94.2908339076499,
+                "top": 175.3267699115044
+            },
+            "points": [
+                {
+                    "x": 94.2908339076499,
+                    "y": 175.3267699115044
+                },
+                {
+                    "x": 445.8015161957271,
+                    "y": 175.3267699115044
+                },
+                {
+                    "x": 445.8015161957271,
+                    "y": 234.99402654867257
+                },
+                {
+                    "x": 94.2908339076499,
+                    "y": 234.99402654867257
+                }
+            ]
+        },
+        {
+            "id": "QYf_H5PJE",
+            "type": "RECTANGLE",
+            "tags": [
+                "Crane"
+            ],
+            "boundingBox": {
+                "height": 57.5858407079646,
+                "width": 377.1633356305996,
+                "left": 495.7201929703653,
+                "top": 8.81349557522124
+            },
+            "points": [
+                {
+                    "x": 495.7201929703653,
+                    "y": 8.81349557522124
+                },
+                {
+                    "x": 872.883528600965,
+                    "y": 8.81349557522124
+                },
+                {
+                    "x": 872.883528600965,
+                    "y": 66.39933628318585
+                },
+                {
+                    "x": 495.7201929703653,
+                    "y": 66.39933628318585
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
