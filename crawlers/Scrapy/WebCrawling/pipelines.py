@@ -11,18 +11,28 @@ import sqlite3
 
 class JsonWriterPipeline(object):
     def remove_special_chars(self, myStr):
-        return (
-            myStr.replace("à", "a")
-            .replace("á", "a")
-            .replace("è", "e")
-            .replace("é", "e")
-            .replace("ì", "i")
-            .replace("í", "i")
-            .replace("ò", "o")
-            .replace("ó", "o")
-            .replace("ù", "u")
-            .replace("ú", "u")
-        )
+        def remove_special_vowels(myStr):
+            return (
+                myStr.replace("à", "a")
+                .replace("á", "a")
+                .replace("è", "e")
+                .replace("é", "e")
+                .replace("ì", "i")
+                .replace("í", "i")
+                .replace("ï", "i")
+                .replace("ò", "o")
+                .replace("ó", "o")
+                .replace("ù", "u")
+                .replace("ú", "u")
+                .replace("ü", "u")
+            )
+        def remove_special_consonants(myStr):
+            return (
+                myStr.replace("ç","c")
+                .replace("ñ","n")
+            )
+
+        return remove_special_consonants(remove_special_vowels(myStr))
 
     def open_spider(self, spider):
         self.file = open("items.jl", "w")

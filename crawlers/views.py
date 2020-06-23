@@ -17,4 +17,9 @@ def runSpiders(request):
             print("    Launching " + str(spider.name))
             res = os.system("cd " + str(Path(__file__).absolute().parent) + " && " + "scrapy crawl " + str(spider.name.replace('_spider.py', '')))
     
-    return render(request, Path('crawlers/results.html'))
+    with open(str(Path(__file__).absolute().parent / Path("items.jl")), 'r') as f:
+        text = f.read().split("\n")
+    return render(request, Path('crawlers/results.html'), {
+        'results' : text,
+        'num' : len(text)
+    })

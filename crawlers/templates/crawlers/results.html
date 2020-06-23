@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Results</h1>
-<h4>INSERT RESULTS HERE</h4>
+<h1>Resultados</h1>
+<h3>Número de tuplas: {{ num }}</h3>
+<div class="results">
+    {% for res in results %}
+        <p>{{res}}</p>
+    {% endfor %}
+</div>
 {% endblock %}
