@@ -1,3 +1,4 @@
+"""
 import os
 import glob
 from pathlib import Path
@@ -22,3 +23,4 @@ for file in os.listdir(TRAIN_PATH):
         )
         # Writes new xml path to file
         tree.write(TRAIN_PATH + file)
+"""

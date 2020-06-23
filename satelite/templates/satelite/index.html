@@ -2,4 +2,23 @@
 
 {% block content %}
 <h1>Satelite home page</h1>
+<form action="/satelite/detect">
+    <button><b>DETECT</b></button>
+</form>
+
+<div>
+  <form id="form1" method="post" action="/satelite/upload" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="files">
+    <button type="submit"><b>UPLOAD</b></button>
+  </form>
+  <form id="form2" action="/satelite/delete">
+    <button><b>DELETE UPLOADS</b></button>
+</form>
+</div>
+
+
+  {% for file in sources %}
+    <p>File uploaded at: {{ file }}</a></p>
+  {% endfor %}
 {% endblock %}
