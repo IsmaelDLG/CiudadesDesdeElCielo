@@ -75,6 +75,7 @@ class HabitacliaSpider(scrapy.Spider):
                         sum_price += int(self._clean_string(ul))
                     except ValueError:
                         sum_price += 0
+                        ofertas -= 1
                     ofertas += 1
 
                 for item in res:
@@ -95,7 +96,7 @@ class HabitacliaSpider(scrapy.Spider):
                             'uso2'  :   uso2,
                             'obra_nueva'   :   obra_nueva,
                             'min_price' : self._clean_string(min_price) if min_price is not None else 0,
-                            'avg_price' : sum_price/(ofertas if ofertas != 0 else 1),
+                            'avg_price' : sum_price/(ofertas if ofertas != 0 else sum_price),
                         }
                         
     def _clean_string(self, ul):
