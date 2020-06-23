@@ -1,0 +1,2 @@
+image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+00040.jpg,B:\GitHub\CiudadesDesdeElCielo\satelite\TrainYourOwnYOLO\Data\Source_Images\Test_Images\00040.jpg,312,181,827,740,0,0.5691542029380798,1300,956

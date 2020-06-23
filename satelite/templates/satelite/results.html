@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Results</h1>
+    {% load static %}
+    {% for file in results %}
+        <div>
+            <p>{{ file }}</p>
+            <img width=75% src="{% static file %}" alt="Image">
+        </div>
+    {% endfor %}
+        <div heigth=200px></div>
+{% endblock %}

@@ -1,0 +1,148 @@
+__pycache__
+*.pyc
+
+*.sqlite3
+
+.vscode/
+
+satelite/imageai/pretrained-yolov3.h5
+
+satelite/Tensorflow/
+
+# Keras model files
+*.h5
+*.weights
+
+# tf event files
+events.out.tfevents.*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# All hidden files and
+
+.vscode/
+.vscode
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+satelite/TrainYourOwnYOLO/build/
+satelite/TrainYourOwnYOLO/develop-eggs/
+satelite/TrainYourOwnYOLO/dist/
+satelite/TrainYourOwnYOLO/downloads/
+satelite/TrainYourOwnYOLO/eggs/
+satelite/TrainYourOwnYOLO/.eggs/
+satelite/TrainYourOwnYOLO/lib/
+satelite/TrainYourOwnYOLO/lib64/
+satelite/TrainYourOwnYOLO/parts/
+satelite/TrainYourOwnYOLO/sdist/
+satelite/TrainYourOwnYOLO/var/
+satelite/TrainYourOwnYOLO/wheels/
+satelite/TrainYourOwnYOLO/pip-wheel-metadata/
+satelite/TrainYourOwnYOLO/share/python-wheels/
+*.egg-info/
+satelite/TrainYourOwnYOLO/.installed.cfg
+*.egg
+satelite/TrainYourOwnYOLO/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+satelite/TrainYourOwnYOLO/pip-log.txt
+satelite/TrainYourOwnYOLO/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+satelite/TrainYourOwnYOLO/htmlcov/
+satelite/TrainYourOwnYOLO/.tox/
+satelite/TrainYourOwnYOLO/.nox/
+satelite/TrainYourOwnYOLO/.coverage
+satelite/TrainYourOwnYOLO/.coverage.*
+satelite/TrainYourOwnYOLO/.cache
+satelite/TrainYourOwnYOLO/nosetests.xml
+satelite/TrainYourOwnYOLO/coverage.xml
+*.cover
+satelite/TrainYourOwnYOLO/.hypothesis/
+satelite/TrainYourOwnYOLO/.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+satelite/TrainYourOwnYOLO/local_settings.py
+satelite/TrainYourOwnYOLO/db.sqlite3
+
+# Flask stuff:
+satelite/TrainYourOwnYOLO/instance/
+satelite/TrainYourOwnYOLO/.webassets-cache
+
+# Scrapy stuff:
+satelite/TrainYourOwnYOLO/.scrapy
+
+# Sphinx documentation
+satelite/TrainYourOwnYOLO/docs/_build/
+
+# PyBuilder
+satelite/TrainYourOwnYOLO/target/
+
+# Jupyter Notebook
+satelite/TrainYourOwnYOLO/.ipynb_checkpoints
+
+# IPython
+satelite/TrainYourOwnYOLO/profile_default/
+satelite/TrainYourOwnYOLO/ipython_config.py
+
+# pyenv
+satelite/TrainYourOwnYOLO/.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+satelite/TrainYourOwnYOLO/celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+satelite/TrainYourOwnYOLO/.env
+satelite/TrainYourOwnYOLO/.venv
+satelite/TrainYourOwnYOLO/env/
+satelite/TrainYourOwnYOLO/venv/
+satelite/TrainYourOwnYOLO/ENV/
+satelite/TrainYourOwnYOLO/env.bak/
+satelite/TrainYourOwnYOLO/venv.bak/
+
+# Spyder project settings
+satelite/TrainYourOwnYOLO/.spyderproject
+satelite/TrainYourOwnYOLO/.spyproject
+
+# Rope project settings
+satelite/TrainYourOwnYOLO/.ropeproject
+
+# mkdocs documentation
+satelite/TrainYourOwnYOLO/site
+
+# mypy
+satelite/TrainYourOwnYOLO/.mypy_cache/
+satelite/TrainYourOwnYOLO/.dmypy.json
+satelite/TrainYourOwnYOLO/dmypy.json
+
+# Pyre type checker
+satelite/TrainYourOwnYOLO/.pyre/
+
+*.jl

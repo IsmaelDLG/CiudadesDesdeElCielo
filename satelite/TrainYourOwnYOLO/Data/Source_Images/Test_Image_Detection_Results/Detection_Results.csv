@@ -1,0 +1,4 @@
+image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+00042.jpg,B:\GitHub\CiudadesDesdeElCielo\satelite\TrainYourOwnYOLO\Data\Source_Images\Test_Images\00042.jpg,59,32,170,229,0,0.5227428078651428,590,332
+Esta_es_la_interesante_5.png,B:\GitHub\CiudadesDesdeElCielo\satelite\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Esta_es_la_interesante_5.png,14,0,465,403,0,0.7695581316947937,640,403
+Esta_no_esta_en_train.jpg,B:\GitHub\CiudadesDesdeElCielo\satelite\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Esta_no_esta_en_train.jpg,71,236,476,473,0,0.3841415345668793,1055,703

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "a92b37796ff3ea84922f4c4c62d7a8da",
+        "name": "00054.jpg",
+        "path": "file:D:/Adnan/Estudios/Uni/UltimQuatrimestre/PAE/CiudadesDesdeElCielo/CiudadesDesdeElCielo/Images/Images/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00054.jpg",
+        "size": {
+            "width": 1024,
+            "height": 682
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "EjwLw8bGf",
+            "type": "RECTANGLE",
+            "tags": [
+                "Crane"
+            ],
+            "boundingBox": {
+                "height": 558.7380952380953,
+                "width": 505.7245854361932,
+                "left": 0.1384282624369142,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 0.1384282624369142,
+                    "y": 0
+                },
+                {
+                    "x": 505.8630136986301,
+                    "y": 0
+                },
+                {
+                    "x": 505.8630136986301,
+                    "y": 558.7380952380953
+                },
+                {
+                    "x": 0.1384282624369142,
+                    "y": 558.7380952380953
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

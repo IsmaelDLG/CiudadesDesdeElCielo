@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Página principal del ML</h1>
+<form action="/satelite/detect">
+    <button><b>ANALIZAR IMÁGENES</b></button>
+</form>
+
+<div>
+  <form id="form1" method="post" action="/satelite/upload" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="files">
+    <button type="submit"><b>CARGAR IMAGEN</b></button>
+  </form>
+  <form id="form2" action="/satelite/delete">
+    <button><b>BORRAR TODAS</b></button>
+</form>
+</div>
+
+  {% for file in sources %}
+    <p>Imagen: {{ file }}</a></p>
+  {% endfor %}
+{% endblock %}

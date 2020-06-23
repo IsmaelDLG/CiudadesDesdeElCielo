@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="home">
+    <h1 style="font-size: 5em;">Ciudades Desde el Cielo</h1>
+    {# Cargamos static files #}
+    {% load static %}
+    <div class="logos">
+        <img src="{% static 'img/upc.png' %}" alt="Logo UPC">
+        <img src="{% static 'img/cbre.png' %}" alt="Logo CBRE">
+    </div>
+</div>
+{% endblock %}
