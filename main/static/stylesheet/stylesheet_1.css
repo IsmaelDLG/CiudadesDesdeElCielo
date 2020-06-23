@@ -64,3 +64,10 @@ button:hover {
 #form2 {
     float: right;
 }
+
+results {
+    background-color: #defae7;
+    width: 75%;
+    height: 300;
+    overflow: auto;
+  }

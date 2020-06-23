@@ -144,3 +144,5 @@ satelite/TrainYourOwnYOLO/dmypy.json
 
 # Pyre type checker
 satelite/TrainYourOwnYOLO/.pyre/
+
+*.jl
