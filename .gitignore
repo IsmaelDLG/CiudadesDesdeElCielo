@@ -146,3 +146,9 @@ satelite/TrainYourOwnYOLO/dmypy.json
 satelite/TrainYourOwnYOLO/.pyre/
 
 *.jl
+
+satelite/TrainYourOwnYOLO/Data/Source_Images/Training_Images/
+
+satelite/static/ml/
+
+satelite/TrainYourOwnYOLO/Data/Source_Images/Test_Images/

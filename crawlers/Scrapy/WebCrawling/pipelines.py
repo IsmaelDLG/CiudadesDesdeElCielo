@@ -42,7 +42,7 @@ class JsonWriterPipeline(object):
 
     def process_item(self, item, spider):
         line = json.dumps(dict(item)) + "\n"
-        # line = self.remove_special_chars(line)
+        line = self.remove_special_chars(line)
         self.file.write(line)
         return item
 
